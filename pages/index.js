@@ -1,5 +1,17 @@
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
-}
+import React from 'react';
+import Head from "next/head";
 
-export default HomePage
+import { GlobalStyle } from '../components/styled/homePage';
+import TopMenu from '../components/TopMenu/topMenu';
+
+const HomePage = () => (
+   <div>
+       <Head>
+           <title>Axels</title>
+       </Head>
+       <GlobalStyle />
+       <TopMenu />
+   </div>
+);
+
+export default HomePage;
