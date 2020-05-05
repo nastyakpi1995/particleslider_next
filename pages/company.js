@@ -1,14 +1,12 @@
 import React from 'react';
 
-import { GlobalStyle } from '../components/styled/homePage';
-import { Content } from '../components/styled/pages/pages';
-import TopMenu from '../components/TopMenu/topMenu';
+import {Content} from '../styled/pages/pages';
+import {PageHeader} from '../components';
 
 const Company = () => (
   <>
-      <GlobalStyle />
-      <TopMenu />
-      <Content>Company</Content>
+    <PageHeader/>
+    <Content>Company</Content>
   </>
 );
 
