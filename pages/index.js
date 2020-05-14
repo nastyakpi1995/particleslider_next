@@ -1,11 +1,12 @@
 import React from 'react';
 
-import {PageHeader, ParticlesSlider} from '../components';
+import {PageHeader, ParticlesSlider, AboutUs} from '../components';
 
 const HomePage = () => (
   <>
     <PageHeader/>
     <ParticlesSlider/>
+    <AboutUs/>
   </>
 );
 

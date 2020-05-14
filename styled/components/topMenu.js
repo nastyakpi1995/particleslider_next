@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 export const BoxWrapper = styled.div`
-   & a {
-     position: relative;
-     text-indent: 18px;
-     text-decoration: none;
-     letter-spacing: 0.07em;
-     text-transform: uppercase;
-     font: 14px "BrandonText", Helvetica, Arial, sans-serif;
-     vertical-align: middle;
-     color: #ffffff;
-     display: inline-block;
-   }
+  & a {
+    position: relative;
+    text-indent: 18px;
+    text-decoration: none;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font: 14px "BrandonText", Helvetica, Arial, sans-serif;
+    vertical-align: middle;
+    color: #ffffff;
+    display: inline-block;
+  }
 `;
 
 export const Header = styled.div`
@@ -23,5 +23,5 @@ export const Header = styled.div`
 `;
 
 export const Img = styled.img`
-   width: 100px;
+  width: 100px;
 `;

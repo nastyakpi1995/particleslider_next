@@ -1,14 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Head from 'next/head';
 
-class ParticlesSlider extends React.Component {
+import {SliderWrapper} from '../styled/components/particlesSlider';
 
-  componentDidMount() {
-    console.log('ParticlesSlider is ready');
-    this.startSlider();
-  }
+const ParticlesSlider = () => {
+  useEffect(() => {
+    startSlider();
+  }, []);
 
-  startSlider() {
+  const startSlider = () => {
     var ps = new ParticleSlider({
       ptlGap: 1,
       ptlSize: 1,
@@ -20,14 +20,12 @@ class ParticlesSlider extends React.Component {
       color: 'rgba(200,200,200,1)',
     });
   }
-
-  render() {
     return (
       <>
         <Head>
           <script src="http://particleslider.com/js/particleslider/current/particleslider.js"/>
         </Head>
-        <section id="particle-slider">
+        <SliderWrapper id="particle-slider">
           <span style={{color: '#fff'}}>Home page slider</span>
           <div className="slides">
             <div id="first-slide"
@@ -36,11 +34,10 @@ class ParticlesSlider extends React.Component {
             />
           </div>
           <canvas className="draw"/>
-        </section>
+        </SliderWrapper>
       </>
     );
-  }
-}
+};
 
 ParticlesSlider.propTypes = {};
 
