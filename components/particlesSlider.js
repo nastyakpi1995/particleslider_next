@@ -23,7 +23,7 @@ const ParticlesSlider = () => {
     return (
       <>
         <Head>
-          <script src="http://particleslider.com/js/particleslider/current/particleslider.js"/>
+          <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/ps-0.9.js"/>
         </Head>
         <SliderWrapper id="particle-slider">
           <span style={{color: '#fff'}}>Home page slider</span>

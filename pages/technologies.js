@@ -1,12 +1,11 @@
 import React from 'react';
 
-import {Content} from '../styled/pages/pages';
-import {PageHeader} from '../components';
+import {PageHeader, TechContent} from '../components';
 
 const Technologies = () => (
   <>
     <PageHeader/>
-    <Content>technologies</Content>
+    <TechContent/>
   </>
 );
 

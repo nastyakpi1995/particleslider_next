@@ -60,10 +60,10 @@ export const ListItem = styled.li`
   margin-bottom: 3%;
   margin-right: 3%;
   width: 48.5%;
-  &:nth-child(n + 3){
+  &:nth-child(n + 3) {
     margin-bottom: 0;
   }
-  &:nth-child(even){
+  &:nth-child(even) {
     margin-right: 0;
   }
 `;
