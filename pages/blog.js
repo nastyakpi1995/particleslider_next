@@ -1,12 +1,14 @@
 import React from 'react';
 
+import {PageHeader, BlogList} from '../components';
 import {Content} from '../styled/pages/pages';
-import {PageHeader} from '../components';
 
 const Blog = () => (
   <>
     <PageHeader/>
-    <Content>Blog</Content>
+    <Content>
+      <BlogList/>
+    </Content>
   </>
 );
 
