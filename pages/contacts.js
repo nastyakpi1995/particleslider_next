@@ -1,12 +1,11 @@
 import React from 'react';
 
-import {Content} from '../styled/pages/pages';
-import {PageHeader} from '../components';
+import { PageHeader, ContactUs } from '../components';
 
 const Contacts = () => (
   <>
-    <PageHeader/>
-    <Content>Contacts</Content>
+    <PageHeader />
+    <ContactUs />
   </>
 );
 
