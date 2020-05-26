@@ -8,7 +8,7 @@ import articles from '../../constants/articles';
 import {Container} from '../../styled/components/blogs/blogs';
 
 const Blogs = () => {
-  const useRouterValue = useRouter().query.page
+  const useRouterValue = useRouter().query.page;
 
   const currentPage = useRouterValue ? useRouterValue : 1;
   const totalLength = articles.length;

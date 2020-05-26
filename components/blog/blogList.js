@@ -9,7 +9,6 @@ import {Container} from '../../styled/components/blogs/blogs';
 
 const BlogList = () => {
   const useRouterValue = useRouter().query.page
-
   const currentPage = useRouterValue ? useRouterValue : 1;
   const totalLength = articles.length;
   const perPage = 5;
